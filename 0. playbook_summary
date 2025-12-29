@@ -14,3 +14,14 @@ BGP
 VRFs
 
 HA (HSRP)
+
+
+⚠️ ASR-1002-X + Ansible Gotchas
+
+✅ Use network_cli, not ssh
+
+✅ IOS-XE requires enable mode access
+
+❌ Do NOT use ios_facts (slow on ASR)
+
+❌ Do NOT push configs line-by-line with raw
