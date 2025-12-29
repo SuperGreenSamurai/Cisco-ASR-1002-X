@@ -15,7 +15,7 @@ VRFs
 
 HA (HSRP)
 
-
+GOTCHAS>>
 ⚠️ ASR-1002-X + Ansible Gotchas
 
 ✅ Use network_cli, not ssh
