@@ -1,0 +1,4 @@
+show ip interface brief
+show ip route
+show ip ospf neighbor
+show running-config
