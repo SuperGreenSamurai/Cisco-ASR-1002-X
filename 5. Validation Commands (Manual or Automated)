@@ -3,7 +3,7 @@ show ip route
 show ip ospf neighbor
 show running-config
 
-OR: add a validation task:
+OR: add a validation task: reformat as yaml
 
 - name: Verify OSPF neighbors
   ios_command:
