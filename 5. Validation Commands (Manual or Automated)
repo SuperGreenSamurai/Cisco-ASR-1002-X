@@ -2,3 +2,10 @@ show ip interface brief
 show ip route
 show ip ospf neighbor
 show running-config
+
+OR: add a validation task:
+
+- name: Verify OSPF neighbors
+  ios_command:
+    commands:
+      - show ip ospf neighbor
