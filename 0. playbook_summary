@@ -1,0 +1,16 @@
+🧠 What This Playbook Gives You
+
+✔ Idempotent config deployment
+✔ Safe to re-run
+✔ OSPF correctly scoped to internal link
+✔ Ready to extend with:
+
+NAT
+
+ACLs
+
+BGP
+
+VRFs
+
+HA (HSRP)
